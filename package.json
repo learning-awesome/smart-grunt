@@ -1,5 +1,5 @@
 {
-  "name": "smart-h5",
+  "name": "smart-h5-pack-framework",
   "version": "1.0.0",
   "description": "Grunt Pack Framework",
   "author": {
@@ -9,7 +9,7 @@
   "homepage": "http://git.oschina.net/hubcarl",
   "repository": {
     "type": "git",
-    "url": "https://git.oschina.net/hubcarl/smart-h5.git"
+    "url": "https://git.oschina.net/hubcarl/smart-h5-pack-framework.git"
   },
   "keywords": [
     "css require",
