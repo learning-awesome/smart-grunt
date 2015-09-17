@@ -42,7 +42,7 @@ module.exports = function(grunt) {
     }
   }
 
-  grunt.registerMultiTask('smart-clean', 'Clean files and folders.', function() {
+  grunt.registerMultiTask('smart_clean', 'Clean files and folders.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       force: grunt.option('force') === true,

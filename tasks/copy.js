@@ -82,7 +82,7 @@ module.exports = function (grunt) {
     }
   };
 
-  grunt.registerMultiTask('smart-copy', 'Copy files.', function (isCompress) {
+  grunt.registerMultiTask('smart_copy', 'Copy files.', function (isCompress) {
     var images=[];
     var msg;
     var options = this.options({

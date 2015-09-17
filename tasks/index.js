@@ -13,7 +13,7 @@ module.exports = function (grunt) {
   var allJSFiles=[];
   var inlineJsFiles = [];
 
-  grunt.registerMultiTask('smart-js', 'grunt pack framework', function (isCompress) {
+  grunt.registerMultiTask('smart_js', 'grunt pack framework', function (isCompress) {
     grunt.log.write(chalk.green('js file processing'));
     this.files.forEach(function (item, index) {
       grunt.log.write(chalk.green('.'));
@@ -31,7 +31,7 @@ module.exports = function (grunt) {
     grunt.log.write(chalk.green('finished!'));
   });
 
-  grunt.registerMultiTask('smart-css', 'grunt pack framework', function (isCompress) {
+  grunt.registerMultiTask('smart_css', 'grunt pack framework', function (isCompress) {
     grunt.log.write(chalk.green('css file processing'));
     this.files.forEach(function (item, index) {
       grunt.log.write(chalk.green('.'));
@@ -47,7 +47,7 @@ module.exports = function (grunt) {
     grunt.log.write(chalk.green('finished!'));
   });
 
-  grunt.registerMultiTask('smart-html', 'grunt pack framework', function (isCompress) {
+  grunt.registerMultiTask('smart_html', 'grunt pack framework', function (isCompress) {
 
     var errorMsg=[];
     var options = this.options({
