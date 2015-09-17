@@ -1,0 +1,49 @@
+{
+  "name": "smart-h5",
+  "version": "1.0.0",
+  "description": "Grunt Pack Framework",
+  "author": {
+    "name": "skydev",
+    "email": "hubcarl@126.com"
+  },
+  "homepage": "http://git.oschina.net/hubcarl",
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/hubcarl/smart-h5.git"
+  },
+  "keywords": [
+    "css require",
+    "js require",
+    "html require",
+    "include",
+    "require",
+    "replace",
+    "variable",
+    "template"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "chalk": "^1.0.0",
+    "pretty-bytes": "^1.0.1",
+    "uglify-js": "^2.4.24",
+    "clean-css": "^3.4.1",
+    "html-minifier": "0.7.2",
+    "rimraf": "~2.2.1",
+    "imagemin": "3.2.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "maintainers": [
+    {
+      "name": "skydev",
+      "email": "hubcarl@126.com"
+    }
+  ]
+}
