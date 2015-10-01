@@ -13,7 +13,7 @@
 6、资源md5功能待实现
 
 
-##smart-grunt  5个命令介绍
+## smart-grunt  5个命令介绍
 
 smart_clean:目录文件清理
 
@@ -25,8 +25,10 @@ smart_css: css文件合并，支持css压缩
 
 smart_html: html文件中html、css、js  inline处理、 
 
-##任务初始化配置
+## 任务初始化配置
+
 grunt.loadNpmTasks('smart-grunt');
+
 grunt.initConfig({
 
     smart_clean: {
@@ -113,8 +115,10 @@ grunt.initConfig({
     }
    );
    
-##注册任务
+## 注册任务
+
 grunt.registerTask('dev', ['smart_copy:js', 'smart_copy:css', 'smart_copy:image', 'smart_js:generated','smart_html:generated']);
+
 grunt.registerTask('prod', ['smart_copy:js:true', 'smart_copy:css:true', 'smart_copy:image:true', 'smart_js:generated:true','smart_html:generated:true']);
 
 
