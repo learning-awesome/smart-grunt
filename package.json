@@ -1,6 +1,6 @@
 {
   "name": "smart-grunt",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Grunt Pack Framework",
   "author": {
     "name": "skydev",
@@ -45,5 +45,23 @@
       "name": "skydev",
       "email": "hubcarl@126.com"
     }
-  ]
+  ],
+  "gitHead": "c1c690b37ad1b95347aab79dcbc1c3b5cb9cc0e0",
+  "_id": "smart-grunt@1.0.2",
+  "scripts": {},
+  "_shasum": "27bd2e306b518344194c69134c6c8b9fcd92dd5f",
+  "_from": "smart-grunt@1.0.2",
+  "_npmVersion": "2.14.1",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "skydev",
+    "email": "hubcarl@126.com"
+  },
+  "dist": {
+    "shasum": "27bd2e306b518344194c69134c6c8b9fcd92dd5f",
+    "tarball": "http://registry.npmjs.org/smart-grunt/-/smart-grunt-1.0.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/smart-grunt/-/smart-grunt-1.0.2.tgz",
+  "readme": "ERROR: No README data found!"
 }
